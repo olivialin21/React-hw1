@@ -1,0 +1,256 @@
+/* global */
+html {
+    width:1260px;
+    height:940px;
+    margin:auto;
+    background-color: #edf2c5;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width:940px;
+    margin-left:160px;
+}
+
+/* header */
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    width: 271px;
+    height: 62px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 0.82;
+    color: #778a50;
+    margin:0;
+    position:relative;
+    top:48px;
+}
+
+.header_icn{
+    display: flex;
+    flex-direction: row;
+}
+
+.icn_fb{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-left:468px;
+    margin-top:60px;
+}
+
+.icn_ig{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    margin-left:504px;
+    margin-top:60px;
+}
+
+.header_line{
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+    position: relative;
+    margin-top:60px;
+    margin-left:10px;
+}
+
+.login{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #778a50;
+}
+
+.box_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 25px;
+    border: solid 1px #778a50;
+    border-radius: 3px;
+    position: relative;
+    margin-top:60px;
+    margin-left:10px;
+    box-sizing: border-box;
+}
+
+.join{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #778a50;
+}
+
+.box_join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 25px;
+    border: solid 1px #778a50;
+    border-radius: 3px;
+    position: relative;
+    margin-top:60px;
+    margin-left:10px;
+    box-sizing: border-box;
+}
+
+/* nav */
+.nav{
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+    position: relative;
+    margin-top:18px;
+}
+
+.nav_list{
+    display:flex;
+    list-style:none;
+    margin:0;
+    padding:0;
+    margin-left:30px;
+    margin-top:13px;
+    position:relative;
+}
+
+.nav_list_item{
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    color: #edf2c5;
+    margin-right:60px;
+}
+
+/* main-picture */
+.main_picture{
+    width:940px;
+    height:448px;
+    border-radius: 3px;
+    position: relative;
+    margin-top:20px;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top:17px;
+}
+
+/* vegetables */
+.vegetables{
+    position: relative;
+}
+
+.vegetables_title{
+    width: 444px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    padding-left:30px;
+    padding-top:14px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    color: #edf2c5;
+    box-sizing: border-box;
+}
+
+.vegetables_img{
+    position:relative;
+    margin-top:15px;
+    display:flex;
+    flex-direction: row;
+    height:140px;
+    width:444px;
+    justify-content:space-between;
+}
+
+/* contact */
+.contact{
+    position: relative;
+    margin-left:52px;
+}
+
+.contact_title{
+    width: 444px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    padding-left:30px;
+    padding-top:14px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    color: #edf2c5;
+    box-sizing: border-box;
+}
+
+.contact_box{
+    display:flex;
+    flex-wrap:wrap;
+    width: 444px;
+    height: 140px;
+    background-color: #f7fbda;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.contact_word1{
+    width: 414px;
+    height: 44px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.25;
+    color: #7d7d7d;
+}
+
+.contact_line{
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+}
+
+.contact_word2{
+    width: 197px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.75;
+    color: #7d7d7d;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    position: relative;
+    margin-top:35px;
+}
+
+.footer_word{
+    width: 301px;
+    height: 14px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #edf2c5;
+}
