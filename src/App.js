@@ -60,8 +60,8 @@ function App() {
             <div className="profile" id="profile">
                 <h1 className="profile_word">PROFILE</h1>
                 <picture>
-                    <source srcset="img/img_3g_L.jpg" media="(min-width:992px)"/>
-                    <img className="img_3g" src="img/img_3g_M.jpg" alt="img_3g"/>
+                    <source srcset="images/img_3g_L.jpg" media="(min-width:992px)"/>
+                    <img className="img_3g" src="images/img_3g_M.jpg" alt="img_3g"/>
                 </picture>
             </div>
             <div className="intro">
